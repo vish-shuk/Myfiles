@@ -1,3 +1,4 @@
+# Takes in two lists and creates a new list with all the elements common to the two lists
 new_list = []
 
 def unique_list(listt):
