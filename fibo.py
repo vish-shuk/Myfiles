@@ -1,4 +1,8 @@
 num = int(raw_input("How many numbers of the fibonacci sequence do you want? : "))
+if num == 1:
+    print [1]
+    exit()
+    
 
 def fibo(num):
     seq = [1, 1]
